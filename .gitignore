@@ -1,0 +1,33 @@
+# Keil MDK 编译产物
+STM32/pro/MDK-ARM/pro/
+STM32/pro/MDK-ARM/*.lst
+STM32/pro/MDK-ARM/*.uvguix.*
+STM32/pro/MDK-ARM/*.bak
+STM32/pro/MDK-ARM/JLinkLog.txt
+STM32/pro/DebugConfig/
+
+# IDE 临时文件
+*.bak
+*.dep
+*.d
+*.crf
+*.o
+*.lst
+*.htm
+*.map
+*.axf
+*.hex
+*.bin
+*.elf
+*.lnp
+*.iex
+*.scvd.tmp
+
+# ESP-IDF 构建产物
+build/
+sdkconfig.old
+managed_components/
+
+# 系统文件
+Thumbs.db
+.DS_Store
